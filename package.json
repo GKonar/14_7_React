@@ -23,7 +23,9 @@
     "watch:sassprefixer": "onchange sass/*.scss -- npm-run-all go:*",
     
     "go:sass": "node-sass --output-style expanded --source-map true -o css sass",
-    "go:autoprefixer": "autoprefixer-cli -o css/style.prefixed.css css/style.css"
+    "go:autoprefixer": "autoprefixer-cli -o css/style.prefixed.css css/style.css",
+
+    "start": "http-server"
   },
   "keywords": [],
   "author": "",
